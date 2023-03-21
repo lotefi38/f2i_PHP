@@ -60,13 +60,12 @@ $age="25";
 </nav>
 <form action='result.php' method='get'>
 <?php
-                        echo $form->Input("4","Votre nom","nom","text","Nom");
-                        echo $form->Input("4","Votre prénom","prénom","text","Prénom");
+                       
                         echo $form->Input("4","Votre email","email","email","Email");
-                        echo $form->Input("4","Votre téléphone","téléphone","tel","Téléphone");
+                   
                         echo $form->Input("4","Votre mot de passe","password","password","Password");
-                        echo $form->Input("4","Votre mot de passe","password2","password","Password");
                         echo $form->Input("4","submit","submit","submit","Submit");
+                        
                         ?>
   
 </form>
